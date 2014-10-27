@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            Rich Lee
 tagline:          'Software Engineer'
-description:      'Documenting my experiences in programming, workflows, and other technical stuff for the internet and future me.' 
+description:      'Documenting my experiences in programming, workflows, and other technical stuff.'
 url:              http://www.richmlee.com
 baseurl:          /
 
@@ -22,5 +22,8 @@ paginate:         5
 # Custom vars
 version:          2.1.0
 
-github:
-  repo:           https://github.com/poole/hyde
+github:           
+  repo:           https://github.com/richmlee
+
+linkedin:
+  profile:        https://www.linkedin.com/pub/richard-lee/2/505/ba/

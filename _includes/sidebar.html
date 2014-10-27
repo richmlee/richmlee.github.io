@@ -26,9 +26,11 @@
         {% endif %}
       {% endfor %}
 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      <!--<a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>-->
+      <!--<a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>-->
+      <!--<span class="sidebar-nav-item">Currently v{{ site.version }}</span>-->
+      <a class="sidebar-nav-item-icons" href="{{ site.github.repo }}"><img src="{{ site.baseurl }}public/images/Octocat.png" height="25px" width="25px"></a>
+      <a class="sidebar-nav-item-icons" href="{{ site.linkedin.profile }}"><img src="{{ site.baseurl }}public/images/LinkedIn.png" height="25px" width="25px"></a>
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
