@@ -1,0 +1,7 @@
+# After doing git clone
+gem install bundler jekyll github-pages
+# cd into project folder
+bundle install
+(optionally bundle update on Windows(?))
+bundle exec jekyll serve
+
